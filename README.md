@@ -1,5 +1,5 @@
 
-# LSTM (ALFA) Forex Markect Tredns Prediction 🚀💹
+# LSTM (ALFA) Forex Market Tredns Prediction 🚀💹
 
 [Python](https://img.shields.io/badge/Python-3.8+-blue)
 
