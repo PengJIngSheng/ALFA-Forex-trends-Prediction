@@ -16,7 +16,7 @@ print(f'🔥 Using device: {device}')
 # 1. 数据准备与清洗
 # ==========================================
 try:
-    df = pd.read_csv('USDJPY_D1_DATA.csv')
+    df = pd.read_csv('EURUSD_D1_DATA.csv')
     df.rename(columns={'Date/Time': 'Date'}, inplace=True)
     df['Date'] = pd.to_datetime(df['Date'])
     if 'Difference %' in df.columns:
@@ -176,7 +176,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 # ==========================================
 # 4. 训练过程
 # ==========================================
-epochs = 500
+epochs = 5000
 best_val_loss = float('inf')
 
 print("🚀 Starting training...")
